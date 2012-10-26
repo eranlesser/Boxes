@@ -71,7 +71,9 @@ package com.readToMe
 			_playBtn.visible=false;
 		}
 		
-		
+		public function onPlayStatus(infoObject:Object):void{
+			
+		}
 		
 		public function onMetaData(infoObject:Object):void{
 			trace(infoObject.width,infoObject.height)

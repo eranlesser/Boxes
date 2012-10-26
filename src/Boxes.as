@@ -2,6 +2,8 @@ package
 {
 	import com.container.Book;
 	import com.container.Home;
+	import com.freshplanet.nativeExtensions.Flurry;
+	import com.freshplanet.nativeExtensions.PushNotification;
 	import com.readToMe.Reader;
 	import com.utils.AssetsManager;
 	
@@ -12,16 +14,17 @@ package
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
 	import flash.events.StageOrientationEvent;
-	import flash.text.TextField;
-	import flash.text.TextFieldAutoSize;
-	import flash.text.TextFormat;
+	import flash.events.TimerEvent;
+	import flash.utils.Timer;
 	
 	public class Boxes extends Sprite
 	{
-		private var _preloader:PreLoader;
+		private var _preloader:ZuukaLoader;
 		private var _book:Book;
 		private var _home:Home;
 		private var _reader:Reader;
+		private var _timerDone:Boolean=false;
+		private var _assetsLoaded:Boolean=false;
 		
 		public function Boxes()
 		{
@@ -31,16 +34,29 @@ package
 			stage.align = StageAlign.TOP_LEFT;
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			stage.displayState = StageDisplayState.FULL_SCREEN;
+			addNativeExtensions();
 			init();
 		}
 		
 		private function init():void{
-			_preloader=new PreLoader();
+			_preloader=new ZuukaLoader();
 			addChild(_preloader);
-			var assetManager:AssetsManager = new AssetsManager();
-			assetManager.complete.add(onAssetsLoaded);
+			var tmr:Timer = new Timer(2000,1);
+			tmr.addEventListener(TimerEvent.TIMER_COMPLETE,onTimer);
+			tmr.start();
+			
 			addEventListener("go_home",goHome);
 			stage.addEventListener(StageOrientationEvent.ORIENTATION_CHANGING, orientationChange);
+			
+		}
+		
+		private function addNativeExtensions():void{
+			//8R342X54FKMXSYP793P9
+			Flurry.getInstance().setIOSAPIKey("8R342X54FKMXSYP793P9");
+			Flurry.getInstance().startSession();
+			Flurry.getInstance().setUserId("");//eran
+			//Flurry.getInstance().setUserId("XZHJ33295CF73CMTZW9R");
+			PushNotification.getInstance().registerForPushNotification();
 		}
 		
 		private function goHome(e:Event):void{
@@ -51,7 +67,20 @@ package
 			}
 		}
 		
+		private function onTimer(e:Event):void{
+			_timerDone = true;
+			var assetManager:AssetsManager = new AssetsManager();
+			assetManager.complete.add(onAssetsLoaded);
+		}
+		
 		private function onAssetsLoaded():void{
+			_assetsLoaded = true;
+			start();
+		}
+		private function start():void{
+			if(!_timerDone||!_assetsLoaded){
+				return;
+			}
 			_home=new Home();
 			addChild(_home);
 			_home.addEventListener("readToMe",readToMe);
