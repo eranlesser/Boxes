@@ -97,8 +97,8 @@ package com.scenes
 			_cloud2.y = 466;
 			addChild(_cloud1);
 			addChild(_cloud2);
-			_cloud1.cacheAsBitmap = true;
-			_cloud2.cacheAsBitmap = true;
+			//_cloud1.cacheAsBitmap = true;
+			//_cloud2.cacheAsBitmap = true;
 			var cloud1Tween:GTween = new GTween(_cloud1,12,{x:Dimentions.WIDTH});
 			cloud1Tween.onComplete = onCloud1Complete;
 			var cloud2Tween:GTween = new GTween(_cloud2,15,{x:Dimentions.WIDTH});

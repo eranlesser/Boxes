@@ -105,7 +105,7 @@ package com.scenes
 			addChild(_clouds);
 			_clouds.x=-356;
 			_clouds.y=141;
-			_clouds.cacheAsBitmap = true;
+			//_clouds.cacheAsBitmap = true;
 		}
 		
 		private function addBaloon():void{

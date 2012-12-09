@@ -26,6 +26,7 @@ package com.container
 			addChild(readbymyself);
 			readbymyself.x=551;
 			readbymyself.y=239;
+			
 		}
 		
 		private function onReadToMe(e:MouseEvent):void{
@@ -34,5 +35,6 @@ package com.container
 		private function readbyself(e:MouseEvent):void{
 			dispatchEvent(new Event("readByMyself"));
 		}
+		
 	}
 }

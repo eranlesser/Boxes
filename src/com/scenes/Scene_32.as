@@ -37,9 +37,9 @@ package com.scenes
 				 _train=new Sprite();
 				var train1:Bitmap=AssetsManager.getBitmap("F32_1024x768_x-4500_y0.jpg",true);
 				var train2:Bitmap=AssetsManager.getBitmap("F32_1024x768_x-4500_y0.jpg",true);
-				train1.cacheAsBitmap=true;
+				//train1.cacheAsBitmap=true;
 				train1.smoothing=true;
-				train2.cacheAsBitmap=true;
+				//train2.cacheAsBitmap=true;
 				train2.smoothing=true;
 				_train.addChild(train1);
 				_train.addChild(train2);

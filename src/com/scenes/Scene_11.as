@@ -296,7 +296,7 @@ class Windows extends Sprite{
 		_window3Sound=new SoundPlayer("WINDOW OPEN 3.mp3");
 		_window4Sound=new SoundPlayer("WINDOW SHADE OPEN.mp3");
 		var windowBg:Bitmap=AssetsManager.getBitmap("F11_1024x768_windows_BG_x775_y0.jpg");
-		windowBg.cacheAsBitmap=true;
+		//windowBg.cacheAsBitmap=true;
 		addChild(windowBg);
 		windowBg.775;
 		_leftLight=addChildAtLocation("F11_1024x768_light_x952_y76.jpg",952,76);

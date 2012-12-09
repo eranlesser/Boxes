@@ -1,5 +1,6 @@
 package com.utils
 {
+	import flash.display.Bitmap;
 	import flash.display.DisplayObject;
 
 	public class Asset{
@@ -8,6 +9,7 @@ package com.utils
 		public function Asset(nme:String,img:DisplayObject){
 			name=nme.slice(nme.lastIndexOf("/")+1,nme.length);
 			image=img;
+			(image as Bitmap).cacheAsBitmap = true;
 		}
 		
 		

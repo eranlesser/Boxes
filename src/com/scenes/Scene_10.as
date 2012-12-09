@@ -97,7 +97,7 @@ package com.scenes
 			bg2.x = bg2.width;
 			addChild(_bg);
 			_bg.y = 40;
-			_bg.cacheAsBitmap = true;
+			//_bg.cacheAsBitmap = true;
 		}
 //___________________________________________________BgTween
 		private function bgTween():void{

@@ -79,7 +79,7 @@ package com.scenes
 			_baloon.x=187;
 			_baloon.y=-304;
 			_baloon.addChild(AssetsManager.getAssetByName("F27_1024x768_baloon_hotspot_x187_y-304.png"));
-			_baloon.cacheAsBitmap = true;
+			//_baloon.cacheAsBitmap = true;
 			addChild(_baloon);
 			_baloon.addEventListener(MouseEvent.MOUSE_DOWN,baloonPressed);
 			idleTweenBaloon();
@@ -150,7 +150,7 @@ package com.scenes
 			addChild(_clouds);
 			_clouds.x=-403;
 			_clouds.y=132;
-			_clouds.cacheAsBitmap = true;
+			//_clouds.cacheAsBitmap = true;
 		}
 		private function cloudTween():void{
 			_tween = new GTween(_clouds,12,{x:-_clouds.width/2-403});

@@ -225,7 +225,7 @@ class Smoke extends Sprite{
 	
 	private function shoot(e:Event):void{
 		var particle:Bitmap = AssetsManager.getBitmap("F1_BOXES_1024x768_smoke_particle.png",true);
-		particle.cacheAsBitmap=true;
+		//particle.cacheAsBitmap=true;
 		addChild(particle);
 		particle.scaleX=0.2;
 		particle.scaleY=0.2;

@@ -437,6 +437,11 @@ package com.utils
 			"<image path='assets/menu/read_mode_readtome_x318_y-327.png' />"+
 			"<image path='assets/menu/read_mode_readtomef_hotspot_x353_y-227.png' />"+
 			"<image path='assets/menu/read_mode_up_hotspot_x466_y-261.png' />"+
+			"<image path='assets/menu/share_x268_y-473.png' />"+
+			"<image path='assets/menu/share_subscribe_hotspot_x498_y-191.png' />"+
+			"<image path='assets/menu/share_morezuuka_hotspot_x389_y-95.png' />"+
+			"<image path='assets/menu/share_facebook_hotspot_x656_y-308.png' />"+
+			
 			//naration options
 			"<image path='assets/menu/text_narrate_toff_noff_x318_y-327.png' />"+
 			"<image path='assets/menu/text_narrate_toff_non_x318_y-327.png' />"+
@@ -487,6 +492,7 @@ package com.utils
 			"<image path='assets/open_menu/Open_Menu_1024x768_BG.jpg' />"+
 			"<image path='assets/open_menu/Open_Menu_1024x768_readbymyself_hotspot_x551_y239.png' />"+
 			"<image path='assets/open_menu/Open_Menu_1024x768_readtome_hotspot_x138_y239.png' />"+
+			"<image path='assets/open_menu/Open_Menu_info_hotspot_x442_y688.png' />"+
 			//touchhere
 			"<image path='assets/gui/touch_here_bright.png' />"+
 			"<image path='assets/gui/touch_here_dark.png' />"+

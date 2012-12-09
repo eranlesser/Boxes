@@ -21,6 +21,7 @@ package com.container.menu
 		private var _narrationMenu:NarrationMenu;
 		private var _sceneMenu:SceneMenu;
 		private var _about:About;
+		private var _share:Share;
 		public var pageRequest:Signal=new Signal();
 		public function Menu(){
 			init();
@@ -42,10 +43,29 @@ package com.container.menu
 			hotSpot.addEventListener(MouseEvent.CLICK,onDownBtn);
 			_readToMeMenu=new ReadToMe();
 			addChild(_readToMeMenu);
+			
 			addNarrationMenu();
 			addScenesMenu();
 			addAboutMenu();
 			addHomeHotSpot();
+			addShareHotSpot();
+		}
+		
+		private function addShareHotSpot():void{
+			_share = new Share(_bg);
+			addChild(_share);
+			_share.x=268;
+			_share.y=-473;
+			var hotSpot:Sprite=new Sprite();
+			hotSpot.addChild(AssetsManager.getAssetByName("scene_menu_tell_a_friend_hotspot_x489_y556.png"));
+			hotSpot.x=489;
+			hotSpot.y=556;
+			addChild(hotSpot);
+			hotSpot.addEventListener(MouseEvent.CLICK,onShare);
+		}
+		
+		private function onShare(e:MouseEvent):void{
+			new GTween(_share,0.5,{y:37});
 		}
 		
 		private function addHomeHotSpot():void{

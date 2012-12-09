@@ -21,7 +21,7 @@ package com.scenes
 				addChild(AssetsManager.getAssetByName("F30_1024x768_background.jpg"));
 				_baloon = AssetsManager.getAssetByName("F30_1024x768_ballon_x-43_y207.png");
 				addChild(_baloon);
-				_baloon.cacheAsBitmap = true;
+				//_baloon.cacheAsBitmap = true;
 				//TextAndNarration.registerText(addText(AssetsManager.getAssetByName("Text_F30_1024x768_x61_y60.png"),61,60));
 				
 				inited=true;
