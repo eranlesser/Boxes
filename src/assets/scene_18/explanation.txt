@@ -1,0 +1,25 @@
+order of layers: (from back to front)
+
+F18_1024x768_background.jpg
+F18_1024x768_diver_x940_y320.png
+F18_1024x768_diver_mask_x918_y361.png
+F18_1024x768_legs_x891_y506.png
+F18_1024x768_man1_610_y293.png
+F18_1024x768_man2_x656_y0.png
+F18_1024x768_man3_x65_y355.png
+F18_1024x768_woman1_x0_y10.png
+F18_1024x768_woman2_x307_y38.png
+
+
+scene runs at 25fps
+
+scene starts with all the layers visible (all characters in the scene are B/W). diver is in its initial state.
+
+diver: 
+once you click the hotspot (F18_1024x768_diver_hotspot_x940_y280.png) the diver climbs up to y239.
+once clicked again, the diver comes back to its initial state.
+
+all the characters has thier corresponding hotspot layers, excluding "man2" who has 2 (clicking on any of them triger the animation).
+the animation for all the layers are once it is tapped the layer turns completely transparent gradually (0.25 sec).
+character stays in color once clicked and cant be clicked again.
+

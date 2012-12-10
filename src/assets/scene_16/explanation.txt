@@ -1,0 +1,26 @@
+order of layers: (from back to front)
+
+F16_1024x768_background.jpg
+F16_1024x768_cat_door_x0_y106.jpg
+F16_1024x768_bang_x313_y166.png
+F16_1024x768_cat_drink_x280_y482.jpg
+F16_1024x768_bird_x392_y372.png
+F16_1024x768_door_x552_y198.png
+
+
+scene loads with only the background.
+
+Touching the left upper cat in the door will make him enter through the door (F16_1024x768_cat_door_x0_y106.jpg).
+hotspot for this action is "F16_1024x768_cat_door_hotspot_x0_y106.png"
+
+Touching the left upper frame (table and man) will make a red bank appear near the man belly. (F16_1024x768_bang_x313_y166.png)
+hotspot for this action is "F16_1024x768_bang_hotspot_x126_y0.png"
+
+Touching the left bottom frame will make the cat drink from the cup + sound effect. (F16_1024x768_cat_drink_x280_y482.jpg)
+hotspot for this action is "F16_1024x768_cat_drink_hotspot_x0_y375.png"
+
+touching the frame of the bird will make it open its mouth and squick. (F16_1024x768_bird_x392_y372.png)
+hotspot for this action is "F16_1024x768_bird_hotspot_x392_y372.png"
+
+Touching the bottom right frame will make the door close. (F16_1024x768_door_x552_y198.png)
+hotspot for this action is "F16_1024x768_door_hotspot_x562_y210.png"

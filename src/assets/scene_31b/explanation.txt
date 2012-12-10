@@ -1,0 +1,10 @@
+order of layers: (from back to front)
+
+F31_5_1024x768_BG.jpg
+F31_5_1024x768_mouth_x618_y506.png
+ 
+ 
+mouth layer starts in opacity 0%. 
+the only interactopn in the scene is when the screen is pressed, the mouth layer appears (opacity 100%) and a laugh is heared.
+when the laugh ends, the mouth disappears (opacity 0%)
+ 

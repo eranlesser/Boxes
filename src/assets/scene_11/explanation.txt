@@ -1,0 +1,84 @@
+order of layers: (from back to front)
+
+F11_1024x768_elevator_x106_y145.jpg
+F11_1024x768_button_glow_x317_y580.png
+F11_1024x768_windows_BG_x775_y0.jpg
+F11_1024x768_light_x952_y76.jpg
+F11_1024x768_paper_drop_x1590_y48.jpg
+F11_1024x768_right_lower_win_closed_x1405_y470.PNG
+F11_1024x768_right_lower_win_open_x1406_y471.PNG
+F11_1024x768_right_upper_win_closed_x1473_y27.PNG
+F11_1024x768_right_upper_win_open_x1394_y27.PNG
+F11_1024x768_left_upper_win_closed_x948_y72.PNG
+F11_1024x768_left_upper_win_open_x817_y16.PNG
+F11_1024x768_left_lower_win_closed_x989_y437.PNG
+F11_1024x768_left_lower_win_open_x828_y396.PNG
+
+
+scene runs 25 fps
+
+
+this is the most complicated scene in the whole app!!!
+
+there are 2 hirarcies in this scene.
+1. the elevator and the glow of the button.
+2. the windows BG and all of the rest of the elements thats attached to it.
+
+when i write the elevator is moving it says the the "button glow" is also moving with it. same goes for the windows BG - when it moves all of the other stuff move with it.
+
+scene starts with all of the elements in their initial position.
+the button glow is blinking, a loop of the following until it is pressed: 
+15 frames 100% opacity, 5 frames transition to 0% opcity, 30 frames 0% opacity, 5 frames transition to 100% opacity.
+once pressed the button glow stays 100% opacity.
+
+after the button glow is pressed the elevator starts to move up until y-670 for 20sec in a linear speed.
+every 2 sec a different light in the pannel lights up (to indicate to floors rising), using the same "button glow asset.
+according to the following order (im indicating the first x,y in relation to the scene, and afterward its the delta from that position)
+1. x319 y509
+2. x342 y508
+3. x356 y506
+4. x318 y485
+5. x340 y485
+6. x362 y484
+7. x317 y465
+8. x339 y463
+9. x361 y462
+
+and now for the twist...
+
+once the elevator reaches the point of y-260 the whole scene starts to move to the left, which means:
+the elevator and all attached to it moves to x-482 (ease in the start and ease out in the end) for 10sec.
+the windows BG and all attached to it moves to x-2 (ease in the start and ease out in the end) for 10sec.
+
+now the scene screen is filled with all of the windows.
+
+each hotspot click opens the relevant window. the frame switches from closed state to open.
+after a window is open, it stays that way, no way to close it again.
+
+once a window is open an addition interaction is possible by clicking the same hotspot.
+
+upper left:
+clicking the window will cause the "F11_1024x768_light_x952_y76.jpg" layer to turn from 100% opacity to 0% in 0.5sec.
+clicking again will cause the oposit interaction (close the light)
+
+upper right:
+clicking the window will cause the "F11_1024x768_paper_drop_x1590_y48.jpg" layer to turn from 0% opacity to 100% instantly.
+once activated the state stayes the same (no reapeated interaction).
+
+lower left:
+once touching the window, sound FX will be played.
+will be reapeted with every click.
+
+lwer right:
+touching the window will cause a smoke (particles) rise from the coffe cups.
+you can use the "F11_1024x768_smoke_particle.png".
+touching the window creates a flow of smoke with these specs (i guess we will adjust once it will work):
+- origin place is x761 y557 (after the scene is on the windows BG frame)
+- 25 per sec. (10% random) (for 2sec)
+- moves 50px on y axis up for 1sec. (10% random)
+- starts in 100% opacity and turns 0% at the max hight. 
+- 10% random on x axis for +-10px.
+
+particle seq reapeted with every click on window.
+
+thats it i hope.

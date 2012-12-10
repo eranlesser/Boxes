@@ -1,0 +1,18 @@
+order of layers: (from back to front)
+
+F22_1024x768_background_X.jpg (state1,2,3)
+F8_1024x768_XXXXX.PNG (all the elements)
+
+scene at 12 fps
+
+use the small elements that are used in scene8 (beside the background layers)
+scene loads at state 1 where there is a bubble.
+once touched, the buble bursts (progress to state 2,3)
+one after the other 5 images load randomly - (no delay between them - 12fps)
+the positioning of the elemets:
+
+x515   y74
+x564   y218
+x663   y86
+x705   y252
+x808   y127

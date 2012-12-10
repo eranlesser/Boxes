@@ -1,0 +1,32 @@
+order of layers: (from back to front)
+
+F7_1024x768_back_image.jpg
+F7_1024x768_water1_x345_y147.png (1-3 sequence animation)
+F7_1024x768_bang_tap_x300_y230.png
+F7_1024x768_bang_drawer_x635_y130.png
+F7_1024x768_bang_shower_x326_y524.png
+F7_1024x768_bubble1.PNG (1-15 randon assets)
+F7_1024x768_shower1_x347_y453.png (1-3 sequence animation)
+F7_1024x768_shower_mask_x58_y369.png
+F7_1024x768_mouth_x751_y693.png
+
+
+scene at 25 fps
+
+
+scene loads with only the background.
+
+Touching the left upper frame will turn the water on and a red bank appear near his belly.
+the water is buily from 3 images that run in sequebce - each image runs for 0.1 sec. when thouched again the reg star disappears and the water stops.
+
+Touching the middle upper frame will make him say "ouch" and the red star will emerge around his belly.
+
+Touching the left bottom frame will make the red star appear by the man's shoulder,
+as he exclaims in pain (sound effect).
+the shower is then activated - also built with 3 images, just like the water above.
+a set of 15 random images are starting to load slowly from the bath in the are around (x80 up to x490) and startin at y627.
+the bubbles ride slowly in a rate of 3 sec (+20% randomization), and once they reach the hight of y369 they disappear. about 5-7 bubbles per sec as the emitter.
+once the user taps again, bang disappears, shower stops, and bubbles stop too, but the ones that were created still complete thier climb.
+
+Touching the bottom right frame will make him gasp (sound effect - we will need to sync once we will have the sound). 
+His mouth opens to a little circle and closes again. 

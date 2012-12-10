@@ -1,0 +1,25 @@
+order of layers: (from back to front)
+
+F27_1024x768_background.jpg
+F27_1024x768_clouds_x-403_y132.png
+F27_1024x768_baloon_x187_y-304.png
+F27_1024x768_fireX_x397_y342.png (1,2,3)
+F27_1024x768_firebucket_x496_y391.png
+F27_1024x768_sea_x0_y674.png
+
+
+scene at 25 fps
+
+constant animation in the background are the clouds in the sky - they move 150px to the right side every sec.
+the clouds images should run in an endless loop - same as the bus backgrounds in scene 10.
+
+before ballon being pressed he moves slightly in the place on y axis - start position and -10px on y axis.
+
+the ballon,fire,firebucket move a one group.
+
+the idea of this scene is that every time the user presses the ballon a flame is lit for 1 sec,
+if the user keeps on pressing the ballon the flames keeps on, un til he leaves (if more than 1 sec.
+there are 3 images for the fire to run in loop all the time while pressed (no delay between them.
+every time the fire is lit (user presses) the ballon rises a bit in aqn angle of about 60-70 degrees.
+easeing in and out on begining and stop of movement (after 1sec press move). ballon moves about 50px each sec.
+max movement is until the ballon is out of the scene.

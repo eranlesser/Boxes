@@ -1,0 +1,19 @@
+order of layers: (from back to front)
+
+F6_1024x768_background.jpg
+F6_1024x768_man_above_x387_y299.png
+F6_1024x768_catX_x440_y493.png (sequence)
+
+scene at 12 fps
+
+
+scene loads with only the background.
+once touching the man - the "man_above" layer is loaded on top of the background image. 
+the "man_above" layer is visible only as long as the finger is pressed on the tablet - once release it disappears.
+after the man was pressed (regardless if holding finger or not) a delay of 0.5 sec and the cat peeps (sequence).
+the cat stays at the final state for 2sec and then the reverse animation (backward).
+once the cat procedure had started it cant be activated again until the whole procedure is finished (appearing - disappearing).
+touching the man again while the cat is peeping wont reset the animation from the begining. only after it is finished - we can make the cat pop again.
+
+
+

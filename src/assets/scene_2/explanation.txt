@@ -1,0 +1,34 @@
+order of layers: (from back to front)
+
+F2_1024x768_background.jpg
+F2_1024x768_man_upper_x-88_y230.png
+F2_1024x768_man_bottom_x-158_y324.png
+F2_1024x768_cat_body_x-319_y330.png
+F2_1024x768_cat_tail_x-388_y395.png
+
+
+the idea is that the user can drag man through the scene while the cat follows him.
+each character is built from 2 parts - and the back part of them (man bottom / tail) is slightly in delay and rotates.
+character rotates acording to moving vector (toward the direction of movement).
+after left the charactrs move a little more in the last direction, until they stop.
+
+
+there are 3 hirarchy in this scene. 
+man top - man bottom
+cat bodt - tail
+man - cat
+
+cat always follows the man (in slight delay)
+
+ 
+back part rotation info:
+
+man:
+man bottom rotation axis x135 y70 (relatively to its own size)
+angle rotation +-5 degrees
+
+cat:
+cat tail rotation axis x92 y17 (relatively to its own size)
+angle rotation +-5 degrees
+
+

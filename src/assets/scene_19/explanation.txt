@@ -1,0 +1,21 @@
+order of layers: (from back to front)
+
+F19_1024x768_background.jpg
+F19_1024x768_drops_x0_y519.png
+F19_1024x768_sea_x0_y528.png
+F19_1024x768_man_reg_x369_y237.png
+F19_1024x768_man_after_x363_y237.png
+
+i've included a video for refernce. (F19_sea.wmv)
+
+scene runs at 25fps
+
+the scene has a loop of automatic animation that playes all the time - never ending - of the sea.
+sea goes up and down into the scene. easing in when its at the highest point, and easing out when moving out.
+also the drops below the sea go from 100% visible when the sea at the highest point, stays in that state for 0.5sec and disappears to 0% after 2sec.
+sea goes up for 2 sec, and goes down for 2 sec.
+starting position is the hogest point and y800 is the lowest point.
+
+1st state of the man is "F19_1024x768_man_reg_x369_y237.png",, once touching him or the cat (F19_1024x768_man_hotspot_x383_y255.png),
+makes the images switch to "F19_1024x768_man_after_x363_y237.png" (the 1st immage disappears).
+

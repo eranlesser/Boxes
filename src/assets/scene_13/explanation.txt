@@ -1,0 +1,15 @@
+order of layers: (from back to front)
+
+F13_1024x768_background.jpg
+F13_1024x768_manwalk_x516_y428.png
+F13_1024x768_manstand_x417_y317.png
+
+
+
+
+scene starts with man in the state of a manwalk. once the man in pressed, the man changes to the state of man walk.
+the background always has a white noise of people speaking. once the man is pressed,
+the noise gradually gets silent (0.5 sec), and than the man says his line while no noise around.
+after the man finishes to talk (delay of 1 sec) the noise gradually starts again (0.5 sec).
+man stays on the bucket afterward all the time. pressing him starts the process again (of him speaking).
+

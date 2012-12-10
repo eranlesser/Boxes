@@ -1,0 +1,26 @@
+order of layers: (from back to front)
+
+F27_1024x768_background.jpg (same asset as in scene 27)
+F29_1024x768_cloud1_x-500_y79.png
+F29_1024x768_cloud2_x-564_y466.png
+F29_1024x768_ballon_x-50_y236.png
+F29_1024x768_bird1.png
+F29_1024x768_bird2.png
+
+scene at 25 fps
+
+constant animation in the background cloud2 - move 150px to the right side every sec until out of screen.
+constant animation in the background cloud1 - move 130px to the right side every sec until out of screen.
+the clouds images should run in an endless loop - same as scene 27.
+
+ballon is moving to the right of the scene from it initial position automatically up to position x1035 y-81 - duration 15sec.
+no repeat for the ballon - once out of scene - it stays out.
+
+the birds in this scene are added by pressing the screen (wherever pressed, there will the bord appear).
+long press will produce still only i bird.
+randomization:
+basic movement of the bird is 300px on x axis per sec.
+randomization between the 2 birds for appearance.
+randomization for the direction the bird appears (which will decide what direction it will fly in).
+randomization for the size (and speed) of the bird 100%-75% (which will reduce speed accordingly, also smaller birds are more backward on layers and vise versa).
+

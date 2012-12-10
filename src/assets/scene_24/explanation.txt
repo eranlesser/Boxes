@@ -1,0 +1,22 @@
+order of layers: (from back to front)
+
+F24_1024x768_background_sky.jpg
+F24_1024x768_ballon_x184_y523.png
+F24_1024x768_sea_x0_y520.png
+
+
+im attaching an animated example: F24_1024x768.wmv
+
+this is a dramatic point in the story.
+the ball is supposed to rise from behind the sea and then stop at a certain point.
+this rise is supposed to be escorted with a dramatic sound/music. 
+the user cant do nothing until the ballon has stopped.
+once he stopped - the user can touch the ballon - what will trigger the scene to progress to the next one automatically.
+
+scene speed: 25fps
+
+ballon start: x184 y523
+ballon end: x184 y363
+duration: 10 sec
+
+there should be a ease toward the end of the movement (the last 1sec)

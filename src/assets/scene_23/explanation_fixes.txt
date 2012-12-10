@@ -1,0 +1,34 @@
+order of layers: (from back to front)
+
+F23_1024x768_back.PNG  ****  updated layer ****
+F23_1024x768_face1_x14_y459.PNG
+F23_1024x768_face2_x126_y80.PNG
+F23_1024x768_face3_x440_y255.PNG
+F23_1024x768_face4_x683_y38.PNG
+F23_1024x768_face5_x857_y275.PNG
+F23_1024x768_face6_x893_y378.PNG
+Text_F23_1024x768_x292_y573.PNG   *** new layer ***
+
+
+
+
+this scene is supposed to be like a playing piano - only on people.
+each time a character is pressed his face changes to a laughing face + a sound of laughter.
+
+
+*** fixes: ***
+--------------
+
+added text layers + box.
+the text layer is linked to the box and moves with it.
+once narration is finished the text box moves out of the screen. 0.5sec
+if the user presses the small tabs tha appears in the upper left of the screen the text box moves to uts position.
+once the upper left corner of the text box is touched the box moves out of the screen. (hotspot)
+
+scene 10 has a video demonstrating the text box movement.
+
+
+*** more fixes: ***
+-------------------
+
+updated the BG layer, and removed the text box layer use.

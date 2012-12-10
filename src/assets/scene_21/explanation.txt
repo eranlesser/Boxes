@@ -1,0 +1,12 @@
+order of layers: (from back to front)
+
+F21_1024x768_background.jpg
+F21_1024x768_big_megaphone_x765_y257.jpg
+F21_1024x768_man_window_x526_y220.jpg
+
+
+simple.
+one the user presses the man with the megaphone, the image changes to a big megaphone and a specific narration is played.
+in addition, while the narration is played the image of the man in the window changes to a scared man.
+images change back one the narration had finished.
+

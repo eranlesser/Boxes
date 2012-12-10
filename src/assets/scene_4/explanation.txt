@@ -1,0 +1,14 @@
+order of layers: (from back to front)
+
+F4_1024x768_sky_x0_y-386.png
+F4_1024x768_moon_x70_y-316.png
+F4_1024x768_sun_x70_y644.png
+F4_1024x768_buildings_back_x0_y117.png
+F4_1024x768_buildings_front_x0_y0.png
+
+
+
+the axes are the positioning of elements at the load of the scene.
+the sky layer can move through -950 to 0. 
+the sun and moon layers move together with the sky.
+the building front layer is at opacity of 100% when the sky are dark, and at 0% when the sky are light.

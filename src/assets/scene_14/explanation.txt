@@ -1,0 +1,33 @@
+order of layers: (from back to front)
+
+F14_1024x768_background.jpg
+F14_1024x768_character11_x663_y-146.png
+F14_1024x768_character10_x4_y-92.png
+F14_1024x768_man_x591_y117.png
+F14_1024x768_character9_x672_y-28.png
+F14_1024x768_character8_x-17_y-209.png
+F14_1024x768_character7_x64_y93.png
+F14_1024x768_character6_x-112_y-152.png
+F14_1024x768_character5_x709_y-36.png
+F14_1024x768_character4_x142_y-145.png
+F14_1024x768_character3_x-146_y354.png
+F14_1024x768_character2_x238_y-252.png
+F14_1024x768_character1_x670_y39.png
+F14_1024x768_big_dog_rest_x250_y604.png (+3 wiggle tail layers)
+F14_1024x768_sml_dog_rest_x145_y626.png )+2 wiggle tail layers)
+F14_1024x768_pig1_x26_y626.png (+1 switch layer)
+
+scene runs at 12fps
+
+pig, sml dog, big dog:
+touching the pig will make the layer switch and make the pig look at the user and make a sound.
+touching the sml dog will make the layer to switch to the wiggle state (2 wiggle images), that will run foe 2sec, an then go back to the rest state.
+touching the big dog will make the layer to switch to the wiggle state (3 wiggle images), that will run foe 2sec, an then go back to the rest state.
+pig+dogs stay on the screen all the time, they are not affected by the movement of the tablet.
+
+the characters:
+the intention is this scene is to make all the people, beside the main character of the man, to fall out of the screen to the sides.
+the "man" layer dowsnt move.
+the rest of the characters should be in some kind of a phisics engine.
+movement of the tablets will cause them to silde away. hard shake will throuw them out of the scene.
+once a character has left the screen she will not be able to come back into it.

@@ -1,0 +1,12 @@
+order of layers: (from back to front)
+
+F30_1024x768_background.jpg
+F30_1024x768_ballon_x-43_y207.png
+
+scene at 25 fps
+
+only ballon animation in this scene.
+
+ballon is moving to the right of the scene from it initial position automatically up to position x1053 y42 - duration 15sec.
+in addition to the movement the ballon also gets reduced in size, from 100% in begining to 80% at the end.
+no repeat for the ballon - once out of scene - it stays out.

@@ -1,0 +1,33 @@
+order of layers: (from back to front)
+
+F26_1024x768_background.jpg
+F26_1024x768_baloon_x479_y239.png
+F26_1024x768_sea_x0_y399.png
+F26_1024x768_man_x343_y342.png
+F26_1024x768_beach_x0_y597.png
+F26_1024x768_people_x0_y281.png
+
+
+i've uploaded a video for reference.
+
+scene has only tilt in it. creating the effect of the man walking into the sea and seeing the ball out of water.
+scene startes at the initial state.
+tilting the tablet away from the user will cause the different layers to move and create the desired affect.
+
+end states of all layers -
+
+F26_1024x768_baloon_x479_y239.png:
+position x500 y50
+
+F26_1024x768_sea_x0_y399.png:
+position x0 y425
+
+F26_1024x768_man_x343_y342.png:
+position x431 y310
+scale start 100%, scale end 90%
+
+F26_1024x768_beach_x0_y597.png:
+position x0 y663
+
+F26_1024x768_people_x0_y281.png:
+position x0 y511

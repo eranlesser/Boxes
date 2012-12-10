@@ -1,0 +1,25 @@
+order of layers: (from back to front)
+
+F9_1024x768_background.jpg
+F9_1024x768_buslights_x-428_y264.png
+The Text Layer
+
+
+i've included a refernce image in the folder. F9_reference.JPG
+
+scene starts with the background positioned at x-512 y0.
+the user can press the headlights of the bus and then the buslights layer is turned on/off.
+another thing the user can do is press the plates of the bus and then he gets a keyboard where he can write his name.
+there should be a save state for this name, so that when the user will reopen the app after closing it will still be there.
+in its initial state the plate should say "Press Me".
+
+the text layer:
+the font that we will use will be tahoma, bold, size 22.
+the user will have 9 characters to enter.
+text box placement is x619 y341.
+the rotation angle is 3.5 ccw.
+
+after the user presses the continue to next scene, the scene moves to the right (creating a pan left effect) - duration (1.5 sec with ease in and out).
+depending on the state of the bus light they may be on/off.
+once reaching to the left of the image the user can drag the scene to the left/right by pressing + holding + moving to the desired side.
+clicking the next scene button now will make the story go to the next frame.

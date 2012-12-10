@@ -1,0 +1,24 @@
+order of layers: (from back to front)
+
+F27_1024x768_background.jpg (from scene 27)
+F20_1024x768_laddar_x496_y-28.png
+F20_1024x768_climb2_x538_y621.png (sequence 2,3,4,5,6,7,8)
+
+i've included a video for refernce. (F20_1024x768_climb.wmv)
+
+scene runs at 8fps
+
+the scene starts with the man peeping at the bottom of the ladder.
+once the man is pressed he starts to climb on the ladder.
+the frames work like follows:
+
+F20_1024x768_climb2_x538_y621.png (runs 1 frames)
+F20_1024x768_climb3_x538_y621.png (runs 3 frames - holds for 3 frames)
+F20_1024x768_climb4_x538_y621.png (runs 1 frames)
+F20_1024x768_climb5_x538_y621.png (runs 1 frames)
+F20_1024x768_climb6_x538_y621.png (runs 1 frames)
+F20_1024x768_climb7_x538_y621.png (runs 1 frames)
+F20_1024x768_climb8_x538_y621.png (runs 1 frames)
+
+once a sequence had run once it jumps 78 pixels on the y axis up and starts all over again.
+the sequence should run 14 times (after that the man disappears at the top of the screen.

@@ -1,0 +1,26 @@
+order of layers: (from back to front)
+
+F17_1024x768_background.jpg
+F17_1024x768_boat.png
+F17_1024x768_foreground.png
+
+
+i've included a refernce video in the folder. F17_1024x768.wmv
+
+in this scene, all that happans is the boat saling from side to side in a slight sinus wave.
+the scene animation is in 25fps.
+
+movment of the boat starts from x534 y195. it takes the boat 10sec to get from one side to the other.
+here are the info for the time and placments from right side to the left:
+
+timing(sec)	x		y
+
+0			534		195
+2			398		200
+4			262		195
+6			126		200
+8			-10		195		
+10			-143	200
+
+the movment to the other side is on the same concept just reveresed, and with the boat flipped on the x axis.
+

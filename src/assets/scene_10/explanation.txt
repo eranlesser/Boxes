@@ -1,0 +1,14 @@
+order of layers: (from back to front)
+
+F10_1024x768_bus_bg_x0_y40.png
+F10_1024x768_inside_bus_x-30_y-37.png
+
+
+scene at 12 fps
+
+
+the bus_bg layer is a repeatin pattern on the x axis (seamless) - it should run endlessly to the right (moving forward).
+the inside layer should have slight jumps (up to 10px up or down) to mimik a moving bus (not too mechanic movement).
+once the screen is touched - bus jumps stop and background movment also (takes about half a sec)
+stays on hold for 3 sec, and then starts to run again (takes about half a sec)
+

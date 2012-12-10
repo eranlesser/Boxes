@@ -1,0 +1,40 @@
+order of layers: (from back to front)
+
+F13_1024x768_background.jpg
+F13_1024x768_manwalk_x316_y428.png   *** updated layer ***
+F13_1024x768_manstand_x217_y317.png   *** updated layer ***
+Text_F13_1024x768_x523_y511.png  *** updated layer ***
+
+
+scene starts with man in the state of a manwalk. once the man in pressed, the man changes to the state of man walk.
+the background always has a white noise of people speaking. once the man is pressed,
+the noise gradually gets silent (0.5 sec), and than the man says his line while no noise around.
+after the man finishes to talk (delay of 1 sec) the noise gradually starts again (0.5 sec).
+man stays on the bucket afterward all the time. pressing him starts the process again (of him speaking).
+
+
+*** fixes: ***
+--------------
+
+1. only thing is the sound issue.
+	it shouldnt break so hard - need to gradually stop for 0.5sec, and when back up also 0.5sec to full sound.
+
+	
+*** text box movement *** (in general)
+
+added text layers + box.
+the text layer is linked to the box and moves with it.
+once narration is finished the text box moves out of the screen. 0.5sec
+if the user presses the small tabs tha appears in the upper left of the screen the text box moves to its position.
+once the upper left corner of the text box is touched the box moves out of the screen. (hotspot)
+
+scene 10 has a video demonstrating the text box movement.
+
+
+*** fixes: v3 ***
+-----------------
+
+updated BG layer
+updated location of text layer - removed text box BG need.
+updated locations of the man standing.
+

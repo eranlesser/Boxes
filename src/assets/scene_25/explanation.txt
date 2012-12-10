@@ -1,0 +1,11 @@
+order of layers: (from back to front)
+
+F25_1024x768_background.jpg
+F25_1024x768_people.png
+
+scene at 25 fps
+
+very simple action.
+the scene will load with people yelling in terror and fright.
+once the user will press the screen, the upper layer of the "people" will turn from visible to transparent (duration 2 sec).
+and then the sounds of the people are gradually muted too.

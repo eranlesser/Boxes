@@ -1,0 +1,18 @@
+order of layers: (from back to front)
+
+F31_1024x768_background.jpg
+credits title sequence (will be prepared as an image)
+F31_1024x768_city_x0_y464.png
+F31_1024x768_ballon_x251_y299.png
+
+scene at 25 fps
+
+ballon animation:
+
+ballon is moving to the right of the scene from it initial position automatically up to position x1033 y220. 
+the ballon is also reduced to 50% with an ease out. duration of movement 15sec.
+after 12 sec of movement, there is an additional movement that will come from behind the city layer and from bottom to top.
+this layer will we be the credits titles. at the end of this layer there will be a text box with the writing like "this book belogs to...",
+and an option for the kid to input his name there. this text box will stop on screen and stays there while the credits will disappear on the top.
+
+no repeat for the ballon - once out of scene - it stays out.

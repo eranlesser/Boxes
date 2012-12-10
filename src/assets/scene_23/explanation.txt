@@ -1,0 +1,14 @@
+order of layers: (from back to front)
+
+F23_1024x768_back.PNG
+F23_1024x768_face1_x14_y459.PNG
+F23_1024x768_face2_x126_y80.PNG
+F23_1024x768_face3_x440_y255.PNG
+F23_1024x768_face4_x683_y38.PNG
+F23_1024x768_face5_x857_y275.PNG
+F23_1024x768_face6_x893_y378.PNG
+
+
+
+this scene is supposed to be like a playing piano - only on people.
+each time a character is pressed his face changes to a laughing face + a sound of laughter.
